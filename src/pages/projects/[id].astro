@@ -44,8 +44,12 @@ const { Content } = await render(project);
         {
             (projectUrl || repositoryUrl) && (
                 <div class="mb-8 flex flex-wrap gap-3">
-                    {projectUrl && <Button href={projectUrl}>Visit live project</Button>}
-                    {repositoryUrl && <Button href={repositoryUrl}>View source</Button>}
+                    {projectUrl && (
+                        <Button href={projectUrl} target="_blank" rel="noopener noreferrer">Visit live project</Button>
+                    )}
+                    {repositoryUrl && (
+                        <Button href={repositoryUrl} target="_blank" rel="noopener noreferrer">View source</Button>
+                    )}
                 </div>
             )
         }
