@@ -1,14 +1,16 @@
 ---
-title: Get in touch
+title: Get in Touch
 seo:
   title: Contact
-  description: Get in touch through email or social media! Let me know how I can help.
+  description: Contact Stavros Kefaleas about software architecture, web development, or collaboration.
 ---
 
-Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:
+I'm available to discuss software architecture, web application development, and potential collaborations.
 
-_Email:_
-Feel free to drop me an email at [example@example.com](mailto:example@example.com), and I'll do my best to respond as soon as possible.
+- **Email:** [stavros.kefaleas@gmail.com](mailto:stavros.kefaleas@gmail.com)
+- **Location:** Larisa, Greece
+- **Phone:** [+30 694 859 1535](tel:+306948591535)
+- **LinkedIn:** [Stavros Kefaleas](https://www.linkedin.com/in/stavros-kefaleas)
+- **GitHub:** [skiabox](https://github.com/skiabox)
 
-_Social Media:_
-Connect with me on social media as well. Find me on [Twitter](https://twitter.com) or [LinkedIn](https://www.linkedin.com/).
+This static site intentionally uses direct contact links rather than a server-dependent WordPress form.

@@ -9,6 +9,7 @@
         "dev": "astro dev",
         "start": "astro dev",
         "build": "astro build",
+        "content:download": "node scripts/download-wordpress-media.mjs",
         "preview": "astro preview",
         "check": "astro check",
         "astro": "astro"

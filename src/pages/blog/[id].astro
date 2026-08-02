@@ -24,7 +24,7 @@ export async function getStaticPaths() {
 type Props = { post: CollectionEntry<'blog'>; prevPost: CollectionEntry<'blog'>; nextPost: CollectionEntry<'blog'> };
 
 const { post, prevPost, nextPost } = Astro.props;
-const { title, publishDate, updatedDate, excerpt, tags = [], seo } = post.data;
+const { title, publishDate, updatedDate, excerpt, tags = [], heroImage, seo } = post.data;
 const { Content } = await render(post);
 
 // Use the configured `site` to generate an absolute URL
@@ -49,6 +49,7 @@ const shareUrl = new URL(Astro.url.pathname, Astro.site).href;
                 }
             </div>
         </header>
+        {heroImage && <img src={heroImage} alt="" class="mb-8 aspect-[16/9] w-full rounded-xl object-cover" />}
         <div class="prose sm:prose-lg max-w-none">
             <Content />
         </div>
