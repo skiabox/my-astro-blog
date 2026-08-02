@@ -1,21 +1,43 @@
-# build output
+# Build output
 dist/
-# generated types
+
+# Astro-generated files
 .astro/
 
-# dependencies
+# Dependencies
 node_modules/
 
-# logs
+# Test and coverage output
+coverage/
+
+# Logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-
-# environment variables
+# Environment variables and local secrets
 .env
-.env.production
+.env.*
+!.env.example
+!.env.*.example
 
-# macOS-specific files
+# Deployment platform output
+.netlify/
+.vercel/
+
+# Editor and IDE files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Operating system files
 .DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+*~
