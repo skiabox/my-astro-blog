@@ -3,7 +3,7 @@ title: 'E-Commerce Site Using TanStack Start'
 description: 'A TypeScript e-commerce application built with TanStack Start, PostgreSQL, and Drizzle.'
 publishDate: '2026-03-28T21:29:49'
 thumbnail: '/images/projects/stackshop.png'
-projectUrl: 'https://tanstack-start-eshop-app.appwrite.network/'
+projectUrl: 'https://tanstack-start-eshop-app.vercel.app/'
 repositoryUrl: 'https://github.com/skiabox/Tanstack-Start-eshop-app'
 legacyUrl: 'https://devcanvas.org/portfolio-archive/e-commerce-site-using-tanstack-start/'
 ---
